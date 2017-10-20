@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, "Helvetica Nueu", sans-serif;
+    padding: 0;
+    font-size: 20px;
+}
+
+#canvas {
+    
+    background-image: url('https://source.unsplash.com/wgivdx9dBdQ/1600x900');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    min-height: 500px;
+    /*background-color: darkslategrey;*/
+    background-color: #141215;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0;
+    /*min-width: 550px;
+    margin: auto;*/
+}
+
+#settings {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: thin;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#settings .adjustor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    min-width: 200px;
+    color: #ffffff;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.adjustor-title {
+    font-size: 13px;
+}
+
+#settings .elements {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-width: 160px;
+}
+
+#settings .number {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: 30%;
+}
+
+.button {
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#clock-bar {
+    height: 250px;
+    width: 130px;
+    background-color: grey;
+}
+
+#title {
+    color: #ffffff;
+}
+
+#time-elapsing-area {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 250px;
+    min-width: 250px;
+    background-color: #141215;
+    cursor: pointer;
+    -moz-border-radius: 125px;
+    -webkit-border-radius: 125px;
+    border-radius: 100%;
+    border: 3px solid #4CAF50;
+}
+
+#timer-name {
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+#time-elapsed {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 70px;
+    padding-top: 35px;
+    font-weight: thin;
+    min-width: 200px;
+    text-align: center;
+}
+
+
+/*
+#span-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: #ffffff;
+    min-width: 70px;
+}
+
+#span-minutes {
+    margin-left: 10px;
+    margin-right: 1px;
+    min-width: 49%;
+    text-align: center;
+}
+
+#span-colons {
+    margin-left: 10px;
+    margin-right: 1px;
+    min-width: 2%;
+    text-align: center;
+}
+
+#span-seconds {
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 10px;
+    min-width: 49%;
+}*/
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.not-active {
+    pointer-events: none;
+    cursor: default;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="canvas">
+        <div id="title">
+            <div id="title" class="noselect">Pomodoro Timer</div>
+        </div>
+        <div id="settings">
+
+            <div class="adjustor">
+                <div class="adjustor-title noselect">BREAK LENGTH</div>
+                <div class="elements">
+                    <div id="decr-break-time" class="button noselect">-</div>
+                    <div id="break-number" class="number noselect"></div>
+                    <div id="incr-break-time" class="button noselect">+</div>
+                </div>
+            </div>
+
+            <div class="adjustor">
+                <div class="adjustor-title noselect">SESSION LENGTH</div>
+                <div class="elements">
+                    <div id="decr-session-time" class="button noselect">-</div>
+                    <div id="session-number" class="number noselect"></div>
+                    <div id="incr-session-time" class="button noselect">+</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="time-elapsing-area" class="noselect">
+            <div id="timer-name"></div>
+            <div id="time-elapsed"></div>
+            <!--div id="span-container">
+                <div id="span-minutes"></div>
+                <div id="span-colons">:</div>
+                <div id="span-seconds"></div>
+            </div-->
+
+        </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
